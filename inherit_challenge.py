@@ -9,12 +9,12 @@ class person:
 
 #child class instance 1
 #the child classes will inherit the above parent class attributes
-class teacher:
-annual_pay = 60,000
-years_experience = '5'
+class teacher(person):
+    annual_pay = 60,000
+    years_experience = '5'
 
 
 #child class instance 2
-class student:
+class student(person):
     gpa = 3.7
     grade_level = '5th grade'
